@@ -2,16 +2,16 @@
 class Haaukins < Formula
   desc "Haaukins CLI"
   homepage "https://github.com/aau-network-security/haaukins/"
-  version "2.2.5"
+  version "2.2.6"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/aau-network-security/haaukins/releases/download/2.2.5/haaukins_cli_2.2.5_macOS_64-bit.zip"
-    sha256 "a9e56949f5c10d8fad11f538b506a44f33c6efc05fea71ca5f9cd90a339b5847"
+    url "https://github.com/aau-network-security/haaukins/releases/download/2.2.6/haaukins_cli_2.2.6_macOS_64-bit.zip"
+    sha256 "88523a1665531d58bbb857fd874e9399a7bf9beb0e0f2515522d7ebf4637a18c"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/aau-network-security/haaukins/releases/download/2.2.5/haaukins_cli_2.2.5_linux_64-bit.zip"
-      sha256 "d274ae4c8af315480285cde28b528d97d167a3245a748dbcf4bb8e073fd8c7ad"
+      url "https://github.com/aau-network-security/haaukins/releases/download/2.2.6/haaukins_cli_2.2.6_linux_64-bit.zip"
+      sha256 "47b2d3cb065fcb67756a6c146deef085162a8af76611413727dce16744f5984d"
     end
   end
 
